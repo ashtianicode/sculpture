@@ -26,7 +26,7 @@ export function FitnessCalendar() {
     return Array.from({ length: 7 }, (_, index) => {
       const date = new Date(startDate.getTime() + index * 24 * 60 * 60 * 1000)
       const dayOfWeek = date.getDay()
-      let title: string
+      let title = "Rest Day"
       let exercises: { id: number; description: string; completed: boolean }[] = []
       let meals: string[] = []
       let progressTracking: string[] = []

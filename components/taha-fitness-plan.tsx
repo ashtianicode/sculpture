@@ -6,7 +6,7 @@ import { FitnessCalendar } from '@/components/FitnessCalendar'
 export default function TahaFitnessPlan() {
   return (
     <div className="p-6 space-y-6 bg-gray-50">
-      <h1 className="text-3xl font-bold text-center mb-8">Taha's 12-Week Fitness Plan</h1>
+      <h1 className="text-3xl font-bold text-center mb-8">Taha&apos;s 12-Week Fitness Plan</h1>
       
       {/* Fitness Calendar */}
       <FitnessCalendar />
@@ -116,7 +116,7 @@ export default function TahaFitnessPlan() {
             <li>T-Bar Row or Machine Row: 4 sets × 8–10 reps</li>
             <li>Barbell or EZ-Bar Curls: 4 sets × 8–10 reps</li>
             <li>Close-Grip Bench Press or Dips: 4 sets × 8–10 reps</li>
-            <li>Farmer's Walk: 3 sets × 30–45 sec</li>
+            <li>Farmer&apos;s Walk: 3 sets × 30–45 sec</li>
             <li>Reverse Grip Biceps Curl: 3 sets × 10–12 reps</li>
           </ul>
         </div>
@@ -170,7 +170,7 @@ export default function TahaFitnessPlan() {
             <li>Romanian Deadlift: 3 sets × 8–10 reps</li>
             <li>Walking Lunges: 3 sets × 10–12 reps</li>
             <li>Calf Raises: 3 sets × 12–15 reps</li>
-            <li>Grip/Forearm work (Farmer's Walk, Wrist Curls)</li>
+            <li>Grip/Forearm work (Farmer&apos;s Walk, Wrist Curls)</li>
           </ul>
         </div>
         <div>
